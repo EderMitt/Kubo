@@ -22,10 +22,6 @@ public class Rotator : MonoBehaviour
 
                 transform.rotation = rotation * transform.rotation;
                 
-                if (transform.localEulerAngles.y <= 0f)
-                {
-                    Debug.Log("Deu certo");
-                }
             }
         }
     }
