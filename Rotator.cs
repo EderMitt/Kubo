@@ -30,3 +30,5 @@ public class Rotator : MonoBehaviour
         }
     }
 }
+
+/* !!!   Colocar no objeto que irá rotacionar   !!! */
