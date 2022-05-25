@@ -21,7 +21,6 @@ public class Rotator : MonoBehaviour
                 rotation = Quaternion.Euler(0f, - touch.deltaPosition.x * rotateSpeedModifier, 0f);
 
                 transform.rotation = rotation * transform.rotation;
-                
             }
         }
     }
